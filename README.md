@@ -1,6 +1,10 @@
 # init
 既存ディレクトリでリポジトリの初期化を行う。
 
+	$ git init --template <template-directory>
+
+他のディレクトリをテンプレートとして使う
+
 # commit
 追跡している変更内容をリポジトリへ記録する。
 
