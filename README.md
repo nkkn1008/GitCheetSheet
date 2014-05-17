@@ -9,7 +9,7 @@
 設定コマンド
 
 ### author 設定
-    $ git config --global user.name "hoge fuga"  
+    $ git config --global user.name "hoge fuga"
     $ git config --global user.email hoge.fuga@piyo.com
 
 ### エディター設定
@@ -78,11 +78,11 @@ checkoutは特定のブランチ又はコミットの内容にワークツリー
 # gc
 Gitリポジトリ内のオブジェクトの圧縮や不要ファイルの削除
 
-# reset  
+# reset
 コミットを再設定を行う。
-	
+
 	$ git reset --soft
-ソフト  
+ソフト
 
 	$ git reset --mixed
 ミックス
@@ -91,13 +91,24 @@ Gitリポジトリ内のオブジェクトの圧縮や不要ファイルの削�
 ハード
 
 # diff
+Show changes between commits, commit and working tree, etc
 コミット間、コミットをworking treeの変更を表示する。
 
 ## Example
 
-    $ git diff 
+    $ git diff
+
 
 # merge
 2つかそれ以上の開発ヒストリーを統合する。
 
     $ git merge fixes enhancements
+
+# filter-branch
+履歴を大規模に変更する
+
+例)
+    $ git filter-branch --tree-filter <command>
+
+プロジェクトの各チェックアウトに対して指定したコマンドを実行する
+
