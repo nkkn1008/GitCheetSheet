@@ -64,10 +64,10 @@ checkoutは特定のブランチ又はコミットの内容にワークツリー
 Gitリポジトリ内のオブジェクトの圧縮や不要ファイルの削除
 
 # diff
-Show changes between commits, commit and working tree, etc 
 コミット間、コミットをworking treeの変更を表示する。
 
 ## Example
 
     $ git diff 
+
 
