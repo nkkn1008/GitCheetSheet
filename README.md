@@ -108,6 +108,8 @@ origin/master との diff を表示する．
 # filter-branch
 履歴を大規模に変更する
 
+例)
+
     $ git filter-branch --tree-filter <command>
 
 プロジェクトの各チェックアウトに対して指定したコマンドを実行する
