@@ -3,6 +3,10 @@
 
 # fetch
 
+他のリポジトリから objects と refs をダウンロードする．
+
+    $ git fetch [<options>] [<repository> [<refspec>...]]
+
 全てのリモートを fetch する．
 
     $ git fetch --all
