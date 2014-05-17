@@ -132,8 +132,8 @@ ex.)
 # rebase
 自分の祖先を付け替える
 
-(master)  A ┬ B - C
-(develop)　 └D[HAED]
+(master)  A ┬ B - C  
+(develop) └D[HAED]
 
     $ git rebase master
 
