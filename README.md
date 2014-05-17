@@ -97,4 +97,7 @@ Gitリポジトリ内のオブジェクトの圧縮や不要ファイルの削�
 
     $ git diff 
 
+# merge
+2つかそれ以上の開発ヒストリーを統合する。
 
+    $ git merge fixes enhancements
