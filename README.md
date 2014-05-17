@@ -5,6 +5,21 @@
 
 他のディレクトリをテンプレートとして使う
 
+# config
+設定コマンド
+
+### author 設定
+    $ git config --global user.name "hoge fuga"  
+    $ git config --global user.email hoge.fuga@piyo.com
+
+### エディター設定
+    $ git config --global core.editor emacs
+
+などなど
+
+
+##
+
 # commit
 追跡している変更内容をリポジトリへ記録する。
 
