@@ -1,7 +1,7 @@
 # init
 既存ディレクトリでローカルリポジトリの初期化を行う。
 
-	$ git init --template <template-directory>
+    $ git init --template <template-directory>
 
 他のディレクトリをテンプレートとして使う
 
@@ -52,7 +52,7 @@ Working tree の状態を表示する．
 
 checkoutは特定のブランチ又はリビジョンの内容にワークツリーを変更する
 
-	$ git checkout [< branch >]
+    $ git checkout [< branch >]
 
 指定のブランチの最新にワークツリーを変更する
 
@@ -78,13 +78,13 @@ Gitローカルリポジトリ内のオブジェクトの圧縮や不要ファ�
 # reset
 リビジョンを再設定を行う。
 
-	$ git reset --soft
+    $ git reset --soft
 ワークツリーとインデックスを保持したまま、特定のリビジョンまでブランチを戻す
 
-	$ git reset --mixed
+    $ git reset --mixed
 インデックスを保持したまま、特定のリビジョンまでブランチを戻す。ワークツリーの内容は削除される
 
-	$ git reset --head
+    $ git reset --head
 全ての変更を破棄し特定のリビジョンまでブランチを戻す。
 
 # diff
@@ -108,7 +108,6 @@ origin/master との diff を表示する．
 # filter-branch
 履歴を大規模に変更する
 
-例)
     $ git filter-branch --tree-filter <command>
 
 プロジェクトの各チェックアウトに対して指定したコマンドを実行する
@@ -120,7 +119,7 @@ origin/master との diff を表示する．
 自分の祖先を付け替える
 
 (master)  A ┬ B - C
-(develop)　 └D[HAED]  
+(develop)　 └D[HAED]
 
     $ git rebase master
 
