@@ -115,7 +115,7 @@ origin/master との diff を表示する．
 プロジェクトの各チェックアウトに対して指定したコマンドを実行する
 
 # clone
-リポジトリを新規ディレクトリにクローンする
+リモートリポジトリを新規ディレクトリにクローンする
 
 ex.)    
     $ git clone git://git.kernel.org/pub/scm/.../linux.git my-linux    
