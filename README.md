@@ -8,6 +8,12 @@
 # commit
 追跡している変更内容をリポジトリへ記録する。
 
+# status
+
+Working tree の状態を表示する．
+
+    $ git status
+
 # fetch
 
 他のリポジトリから objects と refs をダウンロードする．
