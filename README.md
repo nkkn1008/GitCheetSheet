@@ -65,6 +65,15 @@ Gitリポジトリ内のオブジェクトの圧縮や不要ファイルの削�
 
 # reset  
 コミットを再設定を行う。
+	
+	$ git reset --soft
+ソフト  
+
+	$ git reset --mixed
+ミックス
+
+	$ git reset --head
+ハード
 
 # diff
 コミット間、コミットをworking treeの変更を表示する。
