@@ -17,9 +17,6 @@
 
 などなど
 
-
-##
-
 # commit
 追跡している変更内容をリポジトリへ記録する。
 
@@ -118,3 +115,13 @@ origin/master との diff を表示する．
 
 # clone
 リポジトリを新規ディレクトリにクローンする
+
+# rebase
+自分の祖先を付け替える
+
+(master)  A ┬  - C
+(develop)　 └D[HED]  
+
+    $ git rebase master
+
+(master) A - B - C - D
