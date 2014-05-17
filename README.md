@@ -133,7 +133,7 @@ ex.)
 自分の祖先を付け替える
 
 (master)  A ┬ B - C  
-(develop) └D[HAED]
+(develop) └D[HEAD]
 
     $ git rebase master
 
