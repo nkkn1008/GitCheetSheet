@@ -22,21 +22,21 @@
 
 # status
 
-Working tree の状態を表示する．
+Working tree の状態を表示する。
 
     $ git status
 
 # fetch
 
-他のリモートリポジトリから objects と refs をダウンロードする．
+他のリモートリポジトリから objects と refs をダウンロードする。
 
     $ git fetch [<options>] [<repository> [<refspec>...]]
 
-全てのリモートリポジトリを fetch する．
+全てのリモートリポジトリを fetch する。
 
     $ git fetch --all
 
-フェッチした後，既にリモートリポジトリに存在しない追跡ブランチがあれば，それを削除する．
+フェッチした後、既にリモートリポジトリに存在しない追跡ブランチがあれば、それを削除する。
 
     $ git fetch -p
 
@@ -96,7 +96,7 @@ Show changes between commits, commit and working tree, etc
     $ git diff
 
 
-origin/master との diff を表示する．
+origin/master との diff を表示する。
 
     $ git diff origin/master
 
