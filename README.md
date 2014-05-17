@@ -45,7 +45,7 @@ Working tree の状態を表示する．
 
 # pull
 
-他のリポジトリの内容を自分のリポジトリに取り込む。デフォルトでは、git fetch した後、get merge する
+他のリポジトリの内容を自分のリポジトリに取り込む。デフォルトでは、git fetch した後、git merge する
 
 # push
 
