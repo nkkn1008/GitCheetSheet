@@ -1,7 +1,7 @@
 # init  
 既存ディレクトリでリポジトリの初期化を行う。
 
-## fetch
+# fetch
 
 全てのリモートを fetch する．
 
@@ -11,7 +11,7 @@
 
     $ git fetch -p
 
-# git pull
+# pull
 
 他のリポジトリの内容を自分のリポジトリに取り込む。デフォルトでは、git fetch した後、get merge する
 
@@ -23,8 +23,7 @@
 
 checkoutは特定のブランチ又はコミットの内容にワークツリーを変更する
 
-### git checkout [< branch >]
-
+	$ git checkout [< branch >]
 
 指定のブランチの最新にワークツリーを変更する
 
