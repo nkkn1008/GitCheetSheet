@@ -85,10 +85,10 @@ Gitリポジトリ内のオブジェクトの圧縮や不要ファイルの削�
 ワークツリーとインデックスを保持したまま、特定のコミットまでブランチを戻す
 
 	$ git reset --mixed
-ミックス
+インデックスを保持したまま、特定のコミットまでブランチを戻す。ワークツリーの内容は削除される
 
 	$ git reset --head
-ハード
+全ての変更を破棄し特定のコミットまでブランチを戻す。
 
 # diff
 Show changes between commits, commit and working tree, etc
