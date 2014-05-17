@@ -117,6 +117,9 @@ origin/master との diff を表示する．
 # clone
 リポジトリを新規ディレクトリにクローンする
 
+ex.)    
+    $ git clone git://git.kernel.org/pub/scm/.../linux.git my-linux    
+
 # rebase
 自分の祖先を付け替える
 
