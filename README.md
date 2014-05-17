@@ -99,6 +99,10 @@ Show changes between commits, commit and working tree, etc
     $ git diff
 
 
+origin/master との diff を表示する．
+
+    $ git diff origin/master
+
 # merge
 2つかそれ以上の開発ヒストリーを統合する。
 
