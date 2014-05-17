@@ -120,7 +120,7 @@ origin/master との diff を表示する．
 自分の祖先を付け替える
 
 (master)  A ┬  - C
-(develop)　 └D[HED]  
+(develop)　 └D[HAED]  
 
     $ git rebase master
 
